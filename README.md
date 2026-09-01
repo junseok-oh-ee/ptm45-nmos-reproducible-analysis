@@ -2,8 +2,8 @@
 
 **Reproducible ngspice–Python analysis of PTM 45 nm HP/LP NMOS**
 
-**최신 공개 릴리스:** v1.1<br>
-**릴리스 날짜:** 2026-08-22<br>
+**최신 공개 릴리스:** [v1.1](https://github.com/junseok-oh-ee/ptm45-nmos-reproducible-analysis/releases/tag/v1.1)<br>
+**릴리스 날짜:** 2026-09-01<br>
 **v1.1 수치·자동화 검증일:** 2026-08-22<br>
 **데이터·수치 검증일:** 2026-08-15<br>
 **공개 패키지 검증일:** 2026-08-22<br>
