@@ -2,6 +2,12 @@
 
 **Reproducible ngspice–Python analysis of PTM 45 nm HP/LP NMOS**
 
+**연구 질문:** 서로 다른 명목 VDD를 갖는 45 nm HP·LP NMOS를 동일 바이어스에서 비교하면 Ion·Ioff·SS·Vth·DIBL은 어떤 trade-off를 보이는가?<br>
+**방법:** ngspice DC sweep → Python 자동 추출 → Excel 교차 계산 → 민감도·회귀·무결성 검증<br>
+**핵심 결과:** 공통 1.0 V에서 HP의 Ion은 3.331배 높았고 Ioff는 947.74배 높았으며, DIBL은 HP 146.16·LP 76.66 mV/V였습니다.<br>
+**핵심 기여:** SS 회귀창의 sweep 하한 접촉을 발견해 VGS 하한을 −0.2 V로 확장하고, 평가 가능한 60개 설정에서 하한 접촉 0건을 확인했습니다.<br>
+**한계:** 단일 W/L·25 °C·명목 PTM DC 결과이며 실제 웨이퍼·PVT·수율 검증이 아닙니다.
+
 **최신 공개 릴리스:** [v1.1](https://github.com/junseok-oh-ee/ptm45-nmos-reproducible-analysis/releases/tag/v1.1)<br>
 **릴리스 날짜:** 2026-09-01<br>
 **v1.1 수치·자동화 검증일:** 2026-08-22<br>
